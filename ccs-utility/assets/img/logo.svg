@@ -1,0 +1,18 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="CCS Utility logo">
+  <defs>
+    <linearGradient id="g1" x1="64" y1="28" x2="190" y2="226" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFB020"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="16" y1="16" x2="240" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1F3A"/>
+      <stop offset="1" stop-color="#07162B"/>
+    </linearGradient>
+  </defs>
+  <rect x="18" y="18" width="220" height="220" rx="44" fill="url(#g2)" stroke="rgba(248,250,252,0.18)" stroke-width="4"/>
+  <path d="M78 164c-18 0-32-14-32-32s14-32 32-32h36" stroke="rgba(248,250,252,0.92)" stroke-width="16" stroke-linecap="round"/>
+  <path d="M178 100c18 0 32 14 32 32s-14 32-32 32h-36" stroke="rgba(248,250,252,0.92)" stroke-width="16" stroke-linecap="round"/>
+  <path d="M92 128h72" stroke="url(#g1)" stroke-width="16" stroke-linecap="round"/>
+  <path d="M80 190h96" stroke="rgba(248,250,252,0.55)" stroke-width="10" stroke-linecap="round"/>
+</svg>
+

@@ -1,0 +1,17 @@
+{
+  "name": "CCS Utility",
+  "short_name": "CCS Utility",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07162b",
+  "theme_color": "#0b1f3a",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
+
