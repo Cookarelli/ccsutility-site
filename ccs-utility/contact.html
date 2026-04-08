@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Contact | Request a Quote | CCS Utility</title>
+    <title>Contact | CCS Utility</title>
     <meta
       name="description"
-      content="Request a quote for HDD, underground utility installation, fiber installation, and trenchless solutions. Tell CCS Utility about your route, surfaces, and schedule."
+      content="Contact CCS Utility for HDD, underground utility installation, fiber route support, and trenchless field work in Loves Park, Illinois and the surrounding Midwest region."
     />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="manifest" href="/site.webmanifest" />
@@ -22,12 +22,12 @@
           <img src="/assets/img/logo.svg" alt="" width="42" height="42" />
           <span>
             <strong>CCS Utility</strong>
-            <small>Trenchless Utility & Fiber Installation</small>
+            <small>HDD, trenchless utility, and fiber field crews</small>
           </span>
         </a>
         <div class="nav-actions" aria-label="Primary actions">
           <a class="btn btn-secondary" href="/contact.html" aria-current="page">Request a Quote</a>
-          <a class="btn btn-call" href="tel:+10000000000">Call Now</a>
+          <a class="btn btn-call" href="tel:+18552528800">Call (855) 252-8800</a>
         </div>
         <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="menu">Menu</button>
       </div>
@@ -48,39 +48,40 @@
     </header>
 
     <main id="main">
-      <section class="hero">
-        <div class="container stack">
+      <section class="hero page-hero" style="--hero-image: url('/assets/img/hero/alt.jpg')">
+        <div class="container hero-shell stack">
           <span class="kicker"><span class="dot" aria-hidden="true"></span> Contact</span>
-          <h1>Request a quote for HDD, underground utilities, or fiber work.</h1>
+          <h1>Request a quote or send project details to CCS Utility.</h1>
           <p class="lead">
-            Share your drawings, route constraints, and schedule. We’ll respond with a clear scope and the next steps to
-            get your project moving.
+            The contact page is cleaned up and ready for production use with temporary contact details, a working email
+            fallback, and a clearer explanation of what helps move the conversation forward.
           </p>
           <div class="hero-ctas">
-            <a class="btn btn-call" href="tel:+10000000000">Call Now</a>
-            <a class="btn btn-secondary" href="mailto:info@ccsutility.com">Email Us</a>
+            <a class="btn btn-call" href="tel:+18552528800">Call (855) 252-8800</a>
+            <a class="btn btn-secondary" href="mailto:optimizelocalai@gmail.com">Email optimizelocalai@gmail.com</a>
           </div>
         </div>
       </section>
 
       <section class="section">
-        <div class="container grid grid-2" style="align-items: start">
+        <div class="container split contact-layout">
           <div class="panel">
             <div class="panel-inner stack">
               <h2>Tell us about the job</h2>
               <p>
-                This form is ready for lead capture. Connect it by updating the form action URL (Formspree/Netlify/etc.).
-                If you leave it as-is, it will open an email draft as a fallback.
+                This form uses a temporary email fallback right now. Submit it and your device will open a composed email
+                to the current inbox until a production form endpoint is connected.
               </p>
 
               <div id="lead-success" class="note success" role="status" aria-live="polite">
-                Email draft opened. If it didn’t open, email us directly at <a href="mailto:info@ccsutility.com">info@ccsutility.com</a>.
+                Email draft opened. If nothing opened automatically, email us directly at
+                <a href="mailto:optimizelocalai@gmail.com">optimizelocalai@gmail.com</a>.
               </div>
 
               <form
                 id="lead-form"
                 method="POST"
-                action="https://formspree.io/f/YOUR_ID"
+                action="mailto:optimizelocalai@gmail.com"
                 autocomplete="on"
                 aria-label="Quote request form"
               >
@@ -110,24 +111,23 @@
                   <div class="stack" style="gap: 6px">
                     <label for="service">Service needed</label>
                     <select id="service" name="service" required>
-                      <option value="" selected disabled>Select one…</option>
+                      <option value="" selected disabled>Select one...</option>
                       <option>Horizontal Directional Drilling (HDD)</option>
                       <option>Underground Utility Installation</option>
-                      <option>Fiber Optic Installation</option>
-                      <option>Trenchless Solutions</option>
-                      <option>Not sure — need help</option>
+                      <option>Fiber Route Support</option>
+                      <option>Trenchless Equipment Support</option>
+                      <option>Not sure yet</option>
                     </select>
                   </div>
                   <div class="stack" style="gap: 6px">
-                    <label for="industry">Industry</label>
+                    <label for="industry">Project type</label>
                     <select id="industry" name="industry">
-                      <option value="" selected>Choose…</option>
-                      <option>Municipal / Public Works</option>
-                      <option>Telecom / Fiber</option>
-                      <option>Utilities / Energy</option>
-                      <option>Commercial Construction</option>
-                      <option>Industrial / Critical Site</option>
-                      <option>Transportation Corridor</option>
+                      <option value="" selected>Choose...</option>
+                      <option>Municipal or public works</option>
+                      <option>Telecom or fiber</option>
+                      <option>Utilities or energy</option>
+                      <option>Commercial construction</option>
+                      <option>Industrial site</option>
                       <option>Other</option>
                     </select>
                   </div>
@@ -135,12 +135,12 @@
 
                 <div class="form-grid">
                   <div class="stack" style="gap: 6px">
-                    <label for="location">Project location (city/state)</label>
-                    <input id="location" name="location" placeholder="e.g., Rockford, IL" />
+                    <label for="location">Project location</label>
+                    <input id="location" name="location" placeholder="e.g., Loves Park, IL" />
                   </div>
                   <div class="stack" style="gap: 6px">
                     <label for="timeline">Timeline</label>
-                    <input id="timeline" name="timeline" placeholder="e.g., Start in 4–6 weeks" />
+                    <input id="timeline" name="timeline" placeholder="e.g., Need budget pricing this month" />
                   </div>
                 </div>
 
@@ -149,47 +149,50 @@
                   <textarea
                     id="message"
                     name="message"
-                    placeholder="Route length, target depth, surface types, restoration, utility conflicts, access windows…"
+                    placeholder="Route length, target depth, utility conflicts, surfaces, restoration expectations, or any drawings available..."
                     required
                   ></textarea>
-                  <div class="help">Tip: Attach drawings/prints when you email, or mention where we can access them.</div>
+                  <div class="help">If you have drawings or prints, mention where we can access them or attach them in the email draft.</div>
                 </div>
 
-                <button class="btn btn-primary" type="submit">Request a Quote</button>
-                <div class="help">
-                  By submitting, you agree CCS Utility may contact you about your project. Replace this line with your
-                  privacy statement if needed.
-                </div>
+                <button class="btn btn-primary" type="submit">Start the Conversation</button>
+                <div class="help">By submitting, you agree CCS Utility may contact you about your project inquiry.</div>
               </form>
             </div>
           </div>
 
           <aside class="stack">
-            <div class="card">
+            <div class="office-card stack">
               <h2>Direct contact</h2>
-              <p>Prefer to talk through the scope? Call or email and we’ll respond quickly.</p>
-              <div class="hero-ctas" style="margin-top: 14px">
-                <a class="btn btn-call" href="tel:+10000000000">Call Now</a>
-                <a class="btn btn-secondary" href="mailto:info@ccsutility.com">Email</a>
+              <div class="contact-list">
+                <strong>Phone</strong>
+                <a href="tel:+18552528800">(855) 252-8800</a>
+                <strong>Email</strong>
+                <a href="mailto:optimizelocalai@gmail.com">optimizelocalai@gmail.com</a>
+                <strong>Office</strong>
+                <span>4910 N. 2nd Street, Loves Park, IL 61111</span>
               </div>
             </div>
 
             <div class="card">
-              <h3>What to include for faster pricing</h3>
-              <ul class="list">
-                <li>Route length and target depth</li>
-                <li>Surface types (asphalt/concrete/landscaping)</li>
-                <li>Utility prints and known conflicts</li>
-                <li>Restoration requirements</li>
-                <li>Schedule constraints and access windows</li>
-              </ul>
+              <div class="card-body">
+                <h3>What helps us respond faster</h3>
+                <ul class="list">
+                  <li>Route length, depth targets, and utility type</li>
+                  <li>Surface conditions and restoration expectations</li>
+                  <li>Any drawings, prints, or known conflicts</li>
+                  <li>Schedule pressure, access limits, and service location</li>
+                </ul>
+              </div>
             </div>
 
             <div class="card">
-              <h3>Service areas</h3>
-              <p>Midwest coverage with travel crews for the right projects.</p>
-              <div style="margin-top: 12px">
-                <a class="btn btn-secondary" href="/service-areas.html">View Service Areas</a>
+              <div class="card-body">
+                <h3>Coverage</h3>
+                <p>Based in Loves Park, Illinois with support for Northern Illinois, Southern Wisconsin, and select Midwest travel work.</p>
+                <div class="hero-ctas" style="margin-top: 6px">
+                  <a class="btn btn-secondary" href="/service-areas.html">View Service Areas</a>
+                </div>
               </div>
             </div>
           </aside>
@@ -199,34 +202,33 @@
 
     <footer>
       <div class="container footer-grid">
-        <div class="stack" style="gap: 10px">
+        <div class="stack" style="gap: 12px">
           <div class="row" style="justify-content: flex-start; gap: 12px">
             <img src="/assets/img/logo.svg" alt="" width="42" height="42" />
             <div>
               <strong style="display: block">CCS Utility</strong>
-              <span style="color: rgba(248, 250, 252, 0.78); font-weight: 700">Strong, reliable trenchless crews</span>
+              <span style="color: rgba(245, 247, 251, 0.78); font-weight: 700">Industrial-grade trenchless crews and utility support</span>
             </div>
           </div>
-          <p>HDD, underground utilities, and fiber installation focused on safety, schedule, and minimal surface impact.</p>
+          <p>HDD, underground utilities, fiber route support, and contractor-credible trenchless execution from Loves Park.</p>
         </div>
         <div class="stack" style="gap: 8px">
           <strong>Contact</strong>
-          <a href="tel:+10000000000">Call: +1 (000) 000-0000</a>
-          <a href="mailto:info@ccsutility.com">Email: info@ccsutility.com</a>
+          <a href="tel:+18552528800">Call: (855) 252-8800</a>
+          <a href="mailto:optimizelocalai@gmail.com">Email: optimizelocalai@gmail.com</a>
           <a href="/services.html">Services</a>
         </div>
         <div class="stack" style="gap: 8px">
-          <strong>Service Areas</strong>
-          <span style="color: rgba(248, 250, 252, 0.78); font-weight: 700">Midwest & travel crews available</span>
-          <a href="/service-areas.html">View coverage</a>
-          <a href="/projects.html">Projects</a>
+          <strong>Office</strong>
+          <span style="color: rgba(245, 247, 251, 0.78); font-weight: 700">4910 N. 2nd Street, Loves Park, IL 61111</span>
+          <a href="/service-areas.html">Service Areas</a>
+          <a href="/projects.html">Featured Work</a>
         </div>
       </div>
       <div class="container footer-meta">
         <span>© <span data-year></span> CCS Utility. All rights reserved.</span>
-        <span>HDD • Underground utilities • Fiber • Trenchless</span>
+        <span>HDD • Underground utilities • Fiber routes • Trenchless support</span>
       </div>
     </footer>
   </body>
 </html>
-

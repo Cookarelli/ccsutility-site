@@ -1,15 +1,20 @@
 # CCS Utility — Static Website
 
-Mobile-first, fast-loading, SEO-friendly static site for **CCS Utility**.
+Mobile-first, SEO-friendly static site for **CCS Utility**.
 
-## Quick start (local)
+## Quick start
 
-- If you have Python: `python -m http.server 5173 --directory ccs-utility`
-- Then open: `http://localhost:5173`
+- `python3 -m http.server 5173 --directory ccs-utility`
+- Open `http://localhost:5173`
 
-## Update before launch
+## Current launch settings
 
-- Replace placeholder phone number `+1 (000) 000-0000` in all pages.
-- Replace email `info@ccsutility.com` if needed.
-- Connect the Contact form by replacing `https://formspree.io/f/YOUR_ID` in `contact.html` with your provider endpoint (Formspree/Netlify/etc.).
+- Business name: `CCS Utility`
+- Phone: `(855) 252-8800`
+- Email: `optimizelocalai@gmail.com`
+- Address: `4910 N. 2nd Street, Loves Park, IL 61111`
+- Contact form: temporary `mailto:` fallback in `contact.html`
 
+## Remaining production item
+
+- The HTML is wired for the photo paths used across the site, but the imported photo files are not present in this cloned repo yet. Add the image files under `assets/img/hero/`, `assets/img/crew/`, `assets/img/drilling/`, `assets/img/pipeline/`, `assets/img/equipment/`, and `assets/img/projects/` before final deploy.
