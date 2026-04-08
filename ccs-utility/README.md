@@ -11,7 +11,7 @@ Mobile-first, SEO-friendly static site for **CCS Utility**.
 
 - Business name: `CCS Utility`
 - Phone: `(855) 252-8800`
-- Email: `optimizelocalai@gmail.com`
+- Email: `brian@ccsutility.com`
 - Address: `4910 N. 2nd Street, Loves Park, IL 61111`
 - Contact form: temporary `mailto:` fallback in `contact.html`
 

@@ -4,7 +4,7 @@
   const year = document.querySelector("[data-year]");
   const form = document.querySelector("#lead-form");
   const success = document.querySelector("#lead-success");
-  const fallbackEmail = "optimizelocalai@gmail.com";
+  const fallbackEmail = "brian@ccsutility.com";
 
   if (year) year.textContent = String(new Date().getFullYear());
 
